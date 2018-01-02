@@ -1,3 +1,15 @@
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 nav {
 	position:absolute;
 	width:600px;
@@ -20,7 +32,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-
+}
 
 .banner{
       background: url no-repeat center center;
@@ -31,4 +43,47 @@ nav ul li a:hover{
   .banner .txt-banner {
       text-align: center;
       vertical-align: middle;
+  }
+
+  @media only screen and (min-width: 38em) {
+
+    header {
+      overflow: hidden;
+    }
+
+    nav ul {
+      text-align: right;
+      width: 80%;
+      float: right;
+    }
+
+    .logo {
+      width: 18%;
+      display: inline-block;
+      float: left;
+    }
+
+    nav ul li {
+      display: inline-block;
+      width: 18%;
+    }
+
+    .banner-content {
+      width: 75%;
+      max-width: 30em;
+    }
+
+    .banner-content h1,
+    .banner-content p {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+  }
+  @media only screen and (min-width: 60em) {
+
+    nav ul {
+      width: 85%;
+    }
+
   }
