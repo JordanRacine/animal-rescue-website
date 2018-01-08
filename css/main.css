@@ -45,6 +45,34 @@ nav ul li a:hover{
       vertical-align: middle;
   }
 
+footer {
+  background:#D3D3D3
+  color:#fff;
+  margin:0;
+}
+  .centered {
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+}
+    .footer-logo {
+      width:20%;
+}
+      img.logo {
+        padding:10px 10px 10px 20px;
+        max-width:100%;
+      }
+
+
+    .footer-contact {
+      width:20%;
+    }
+
+    .footer-navigation {
+      width:60%;
+    }
+}
+
   @media only screen and (min-width: 38em) {
 
     header {
