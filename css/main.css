@@ -17,8 +17,6 @@
   left: 50%;
   transform: translate(-50%);
   color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 
 nav {
@@ -37,7 +35,6 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   margin-top: 3px;
-  padding: 5px;
   border-bottom: 3px solid;
   color: #e1533c;
 }
@@ -76,7 +73,6 @@ footer {
 }
 
 img.logo {
-  padding: 10px 10px 10px 20px;
   max-width: 100%;
 }
 
