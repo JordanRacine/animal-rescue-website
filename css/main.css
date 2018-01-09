@@ -29,7 +29,6 @@ html {
   left: 50%;
   transform: translate(-50%);
   color: white;
-  background-color: grey;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -44,7 +43,6 @@ nav {
 
 nav ul li {
 	float: left;
-	line-height:normal;
 	margin-left:15px;
 }
 
@@ -59,7 +57,7 @@ nav ul li a:hover{
 }
 
 .banner{
-      background: url no-repeat center center;
+      background: no-repeat center center;
       background-size: 100%;
       max-width: 100%;
       height: auto;
@@ -70,7 +68,7 @@ nav ul li a:hover{
   }
 
 footer {
-  background:#D3D3D3
+  background:#D3D3D3;
   color:#fff;
   margin:0;
 }
@@ -87,7 +85,6 @@ footer {
         max-width:100%;
       }
 
-
     .footer-contact {
       width:20%;
     }
@@ -95,7 +92,7 @@ footer {
     .footer-navigation {
       width:60%;
     }
-}
+
 
   @media only screen and (min-width: 38em) {
 
