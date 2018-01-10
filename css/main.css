@@ -3,7 +3,8 @@ html {
 }
 
 .skip-links {
-  display: none;
+  position: absolute;
+  top: -3em;
 }
 
 .banner-home {
@@ -44,6 +45,10 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 3px solid white;
   background-color: #e1533c;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
 
 .banner {
