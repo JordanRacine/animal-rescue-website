@@ -29,12 +29,10 @@ nav {
 
 nav ul li {
   float: left;
-  margin-left: 15px;
 }
 
 nav ul li a {
   text-decoration: none;
-  margin-top: 3px;
   border-bottom: 3px solid;
   color: #e1533c;
 }
@@ -64,7 +62,7 @@ footer {
 
 .centered {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
 }
 
@@ -115,7 +113,7 @@ img.logo {
   .banner-content h1,
   .banner-content p {
     width: 90%;
-    margin: 0 auto;
+    margin: 0;
   }
 
 }
