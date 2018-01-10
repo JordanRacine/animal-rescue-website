@@ -21,7 +21,7 @@
     <li><a href="rescue">Jump to Rescues</a></li>
   </ul>
 
-  <header class="grid masthead text-center section-dark island-1-8 pad-0">
+  <header class="grid masthead text-center section-dark island-1-8 pad-0" role="banner">
     <div class="push-0 gutter-0 unit xs-1 s-1 m-1-3 l-1-4 xl-1-4">
       <a href="#" id="logo"><img src="images/marshalls.png" alt="logo" width="133" height="133"></a>
     </div>
@@ -37,7 +37,12 @@
     </div>
   </header>
 
-  <main class="pad-t">
+  <div class="banner-home">
+    <div class="embed embed-16by9 push-2">
+      <img class="img-flex embed-item" src="images/banner.jpg" alt="…">
+    </div>
+  </div>
+  <main class="pad-t" role="main">
     <section>
       <a href="#empty" aria-label="empty"></a>
       <h1 class="text-center"> Adopt a furry little friend Today!</h1>
@@ -46,7 +51,7 @@
         <div class="grid grid-middle">
           <div class="unit x1-s s-1 m-1-2 l-1-2 push-1-2 gutter-1-2">
             <label for="pet">Which Pet are you interested in?</label>
-            <input id="pet" class="" type="text" name="pet" placeholder="pets name">
+            <input id="pet" type="text" name="pet">
           </div>
         </div>
       </div>
@@ -55,7 +60,7 @@
     <form id="apply" class="max-length gutter pad-t pad-b" action="#" method="post">
 
       <fieldset class="push-0 no-border">
-        <h3 class="text-center">Contact Information</h3>
+        <legend class="text-center">Contact Information</legend>
 
         <div class="unit x1-s s-1 m-1-2 l-1-2 push-1-2 gutter-1-2">
           <label class="push-1-8" for="first-name">First name</label>
